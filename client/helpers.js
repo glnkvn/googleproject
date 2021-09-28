@@ -11,10 +11,6 @@ function Search(searchValue) {
 
 const cardValid = () => new Promise(getInfos);
 
-// search_1.addEventListener('mouseover',(e) => {
-//     search_1.style.backgroundColor = "blue";
-   
-// })
 
 form.addEventListener('submit', (e) => {
     
@@ -37,18 +33,3 @@ form.addEventListener('submit', (e) => {
             console.error(error)
         })
 })
-
-function renderStudent(search){
-//    search_key.textContent=search; 
-}
-
-function handleFormSubmit(e) {
-    e.preventDefault();
-    const name = e.target.search;
-    renderStudent(search);
-}
-
-module.exports={
-    renderStudent,
-    handleFormSubmit
-}
