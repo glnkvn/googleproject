@@ -54,3 +54,11 @@ svg {
     /*border: none;*/
     margin-top: 15px;
 }
+
+#search1:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+  #search1:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
