@@ -34,6 +34,10 @@ svg {
     background-size: 16px;
 }
 
+#query:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+
 #magnify {
     all: unset;
     cursor: pointer;
