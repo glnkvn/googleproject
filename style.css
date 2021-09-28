@@ -43,8 +43,9 @@ svg {
 
 #search1, #search2 {
   
-    padding: 5px;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 5px;
     display:inline;
- 
+    /*border: none;*/
+    margin-top: 15px;
 }
