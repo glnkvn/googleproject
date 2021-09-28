@@ -1,38 +1,46 @@
+
 body {
-   
-    margin: 150px 40%;
+    margin: 150px;
+    text-align: center;
   }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    margin-bottom: 5px;
 }
-form {
 
-    width: 600px;
+/*form {
+    width: 750px;
     height: 44px;
-    border-radius: 5px;
-    display:flex;
-    
-    align-items:center;
-  }
+    background-color: red;
+    display: inline-flexbox;
+  }*/ 
 
-  svg {
+svg {
     color: #999999;
     fill: currentColor;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-  }
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    margin-top:20px;
+}
 
 #query {
-    
-    width: 850px;
-    height: 35px;
-    border-radius: 25px; 
-    
+    width: 66%;
+    border-radius: 26px;
+    border: 1px solid #ada9a9;
+    padding: 1% 6%;
+    margin: 1% 1%;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 12px;
+    background-size: 16px;
 }
+
 #magnify {
     all: unset;
     cursor: pointer;
@@ -41,5 +49,10 @@ form {
   }
 
 #search1, #search2 {
-    text-align: center;
+  
+    padding: 5px;
+    margin: 0 auto;
+    display:inline;
+    /*display: flex;*/
+ 
 }
