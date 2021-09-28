@@ -1,0 +1,45 @@
+body {
+   
+    margin: 150px 40%;
+  }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+form {
+
+    width: 600px;
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    
+    align-items:center;
+  }
+
+  svg {
+    color: #999999;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+
+#query {
+    
+    width: 850px;
+    height: 35px;
+    border-radius: 25px; 
+    
+}
+#magnify {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+
+#search1, #search2 {
+    text-align: center;
+}
