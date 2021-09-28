@@ -11,13 +11,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-/*form {
-    width: 750px;
-    height: 44px;
-    background-color: red;
-    display: inline-flexbox;
-  }*/ 
-
 svg {
     color: #999999;
     fill: currentColor;
@@ -53,6 +46,5 @@ svg {
     padding: 5px;
     margin: 0 auto;
     display:inline;
-    /*display: flex;*/
  
 }
