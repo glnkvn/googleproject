@@ -1,0 +1,63 @@
+body {
+    margin: 150px;
+    text-align: center;
+  }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5px;
+    letter-spacing: -5px;
+}
+
+svg {
+    color: #999999;
+    fill: currentColor;
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    margin-top:20px;
+}
+
+#query {
+    width: 66%;
+    border-radius: 26px;
+    border: 1px solid #ada9a9;
+    padding: 1% 6%;
+    margin: 1% 1%;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 12px;
+    background-size: 16px;
+}
+
+#query:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+
+#magnify {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+
+#search1, #search2 {
+  
+    padding: 10px;
+    margin: 5px;
+    display:inline;
+    /*border: none;*/
+    margin-top: 15px;
+}
+
+#search1:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+  #search1:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
