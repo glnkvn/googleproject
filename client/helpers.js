@@ -3,11 +3,14 @@ const givenQuotes=require('../quotes.json');
 const search_1 = document.querySelector('#search1');
 const form = document.querySelector('form');
 
-function Search(searchValue) {
+function Search(data) {
     const query=document.querySelector('ol');
-    const quoteContent= document.createElement('li');
-    quoteContent.textContent=` ${searchValue}`;
-    query.append(quoteContent);
+    for(let i =0; i < data.length ; i++){
+        let quoteContent= document.createElement('li');
+        quoteContent.textContent = `${data[i]}`;
+        query.append(quoteContent);
+    }
+    
 }
 
 const cardValid = () => {new Promise(getInfos)};
@@ -21,17 +24,16 @@ form.addEventListener('submit', (e) => {
 
     getRequestedWord(givenQuotes,searchValue);
 
-    fetch('http://localhost:3000/:searchValue')
+    fetch(`http://localhost:3000/${searchValue}`)
             .then(res => res.json())
-            .then(printRequestedWord)
+            .then(Search)
             .catch(console.warn);
 
     
     function getInfos (res, rej){     
         if (searchValue.length ){
-            let result = Search(searchValue);
-            printRequestedWord(searchValue);
-            res(result);
+            // let result = Search(searchValue);
+            // res(result);
         }else{
             const err = "No given input";
             rej(err)
@@ -48,7 +50,11 @@ form.addEventListener('submit', (e) => {
 
 function printRequestedWord(data) {
     const param = document.querySelector("p");
-    param.textContent = `${data}+ worked`;
+    console.log(data.length);
+    for(let i =0; i < data.length ; i++){
+        param.textContent += `${data}\n`;
+    }
+   
 
 }
 
